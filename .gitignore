@@ -1,0 +1,31 @@
+.env
+cert
+logs
+dist
+# Old json data storage "database"
+/database
+
+# SQLite Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# SQLite Journal Files
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
+
+# Visual Studio automatically generated directories
+node_modules
+.vs
+# VSCode automatically generated directory
+.vscode
+
+# JetBrains IDEs
+.idea/
+
+# PNPM
+pnpm-lock.yaml
+
+# Hidden mac file storing attributes of the directory
+.DS_Store
