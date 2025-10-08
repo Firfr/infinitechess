@@ -10,7 +10,13 @@ What began as an indie project by [Naviary](https://www.youtube.com/@Naviary) in
 
 ## 部署说明
 
-首先感谢原作者的开源。[原项目地址](https://github.com/Infinite-Chess/infinitechess.org)
+首先感谢原作者的开源。
+- 原项目地址
+  - 官网 https://www.infinitechess.org/
+  - GitHub仓库 https://github.com/Infinite-Chess/infinitechess.org
+- 我汉化和构建docker镜像的仓库
+  - GitHub仓库 https://github.com/Firfr/infinitechess
+  - Gitee仓库 https://gitee.com/firfe/infinitechess
 
 具体汉化了那些内容，请参考[翻译说明](翻译说明.md)。
 
@@ -30,9 +36,14 @@ What began as an indie project by [Naviary](https://www.youtube.com/@Naviary) in
 容器内部端口 1443 ,要使用`https`访问。
 下面的例子中，把容器内部的`1443`映射到宿主机中的`3000`。
 
-```bash
-swr.cn-north-4.myhuaweicloud.com/firfe/infinitechess:2025.05.12
-```
+- AMD64镜像
+  ```bash
+  swr.cn-north-4.myhuaweicloud.com/firfe/infinitechess:2025.05.12
+  ```
+- ARM64镜像 这个镜像可能会有问题
+  ```bash
+  swr.cn-north-4.myhuaweicloud.com/firfe/infinitechess:2025.05.12-arm64
+  ```
 
 ### docker run 命令部署
 
